@@ -1,4 +1,4 @@
-package com.example.spring5petclinic.model;
+package com.wagnerrmorais.spring5petclinic.model;
 
 public class PetType {
 

@@ -2,10 +2,11 @@ package com.wagnerrmorais.spring5petclinic.services.map;
 
 import com.wagnerrmorais.spring5petclinic.model.Pet;
 import com.wagnerrmorais.spring5petclinic.services.CrudService;
+import com.wagnerrmorais.spring5petclinic.services.PetService;
 
 import java.util.Set;
 
-public class PetServiceMap extends AbstractMapService<Pet, Long> implements CrudService<Pet, Long> {
+public class PetServiceMap extends AbstractMapService<Pet, Long> implements PetService {
     @Override
     public Set<Pet> findAll() {
         return super.findAll();

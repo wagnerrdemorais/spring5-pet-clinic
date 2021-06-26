@@ -12,7 +12,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 @Component
-@Profile("notactiveprofile")
+@Profile("springdatajpa")
 public class OwnerSDJpaService implements OwnerService {
 
     private final OwnerRepository ownerRepository;

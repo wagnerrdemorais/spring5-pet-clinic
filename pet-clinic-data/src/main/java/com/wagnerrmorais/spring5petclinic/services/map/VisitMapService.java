@@ -2,11 +2,13 @@ package com.wagnerrmorais.spring5petclinic.services.map;
 
 import com.wagnerrmorais.spring5petclinic.model.Visit;
 import com.wagnerrmorais.spring5petclinic.services.VisitService;
+import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
 @Service
+@Profile({"default", "map"})
 public class VisitMapService extends AbstractMapService<Visit, Long> implements VisitService {
 
     @Override

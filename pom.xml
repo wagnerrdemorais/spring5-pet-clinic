@@ -14,11 +14,14 @@
         <version>2.5.1</version>
         <relativePath /> <!-- lookup parent from repository -->
     </parent>
+
     <groupId>com.wagnerrmorais</groupId>
     <artifactId>spring5-pet-clinic</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.1-SNAPSHOT</version>
+
     <name>spring5-pet-clinic</name>
     <description>Demo project for Spring Boot</description>
+
     <properties>
         <java.version>11</java.version>
     </properties>
